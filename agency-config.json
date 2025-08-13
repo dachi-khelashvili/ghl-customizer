@@ -1,0 +1,40 @@
+{
+  "agencyId": "your-agency-id",
+  "branding": {
+    "logoUrl": "https://cdn.yoursite.com/logos/agency-logo.png",
+    "primaryColor": "#0958a5",
+    "dashboardTitle": "Welcome to Your Agency Portal"
+  },
+  "headerButtons": [
+    { "label": "Calendar", "icon": "calendar", "url": "/calendar" },
+    { "label": "Conversations", "icon": "chat", "url": "/conversations" },
+    { "label": "Pipelines", "icon": "pipeline", "url": "/pipelines" },
+    { "label": "Help", "icon": "help", "url": "https://support.yoursite.com" }
+  ],
+  "userMenu": [
+    { "label": "Profile", "url": "/profile" },
+    { "label": "Agency Settings", "url": "/settings" }
+  ],
+  "dashboardCustomizer": {
+    "autoSave": { "isEnabled": true },
+    "saveButtonMove": { "isEnabled": true },
+    "additionalInfoSearch": { "isEnabled": true },
+    "opportunityCallButton": { "isEnabled": false },
+    "unreadCounter": { "isEnabled": true },
+    "collapsePipeline": { "isEnabled": true }
+  },
+  "widgets": [
+    { "name": "Tasks", "isVisible": true },
+    { "name": "Leads", "isVisible": false },
+    { "name": "Reports", "isVisible": true }
+  ],
+  "featureToggles": {
+    "showNotifications": true,
+    "enableSmartListFilters": true,
+    "embedGoogleMaps": false
+  },
+  "integrations": [
+    { "type": "iframe", "name": "PandaDoc", "url": "https://app.pandadoc.com", "position": "dashboard" },
+    { "type": "iframe", "name": "Live Q&A", "url": "https://support.customurl.com", "position": "sidebar" }
+  ]
+}
