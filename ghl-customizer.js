@@ -1,7 +1,7 @@
 (function() {
   // Directly use your hosted config JSON URL
   const configUrl = 'https://cdn.jsdelivr.net/gh/nicopasion/ghl-customizer@main/agency-config.json';
-
+  alert("Customizer script loaded!");
   // ---- Helper: Applies branding ----
   function applyBranding(branding) {
     if (branding.logoUrl) {
@@ -103,5 +103,6 @@
       // ...Add more as needed for your setup
     })
     .catch(err => console.error('Customizer config fetch failed', err));
+
 
 })();
